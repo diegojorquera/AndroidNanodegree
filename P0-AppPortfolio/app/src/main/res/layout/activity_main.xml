@@ -12,7 +12,7 @@
     android:background="@android:color/background_dark">
 
     <TextView
-        android:text="My Nanodegree Apps"
+        android:text="@string/my_nanodegree_apps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/titleTextView"
@@ -29,43 +29,43 @@
         android:layout_below="@+id/titleTextView" />
 
     <Button
-        android:text="Popular Movies"
         style="@style/ProjectButton"
+        android:text="@string/popular_movies"
         android:id="@+id/popularMoviesButton"
         android:layout_below="@+id/space"
         android:onClick="onProjectButtonClick" />
 
     <Button
-        android:text="Stock Hawk"
         style="@style/ProjectButton"
+        android:text="@string/stock_hawk"
         android:id="@+id/stockHawkButton"
         android:layout_below="@+id/popularMoviesButton"
         android:onClick="onProjectButtonClick" />
 
     <Button
-        android:text="Build It Bigger"
         style="@style/ProjectButton"
+        android:text="@string/build_it_bigger"
         android:id="@+id/buildItBiggerButton"
         android:layout_below="@+id/stockHawkButton"
         android:onClick="onProjectButtonClick" />
 
     <Button
-        android:text="Make Your App Material"
         style="@style/ProjectButton"
+        android:text="@string/make_your_app_material"
         android:id="@+id/makeYourAppMaterialButton"
         android:layout_below="@+id/buildItBiggerButton"
         android:onClick="onProjectButtonClick" />
 
     <Button
-        android:text="Go Ubiquitous"
         style="@style/ProjectButton"
+        android:text="@string/go_ubiquitous"
         android:id="@+id/goUbiquitousButton"
         android:layout_below="@+id/makeYourAppMaterialButton"
         android:onClick="onProjectButtonClick" />
 
     <Button
-        android:text="Capstone"
         style="@style/ProjectButton"
+        android:text="@string/capstone"
         android:id="@+id/capstoneButton"
         android:layout_below="@+id/goUbiquitousButton"
         android:onClick="onProjectButtonClick" />
