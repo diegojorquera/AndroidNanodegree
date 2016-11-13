@@ -30,67 +30,43 @@
 
     <Button
         android:text="Popular Movies"
-        android:layout_height="wrap_content"
+        style="@style/ProjectButton"
         android:id="@+id/popularMoviesButton"
-        android:layout_width="250dp"
         android:layout_below="@+id/space"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="3dp"
         android:onClick="onProjectButtonClick" />
 
     <Button
         android:text="Stock Hawk"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/ProjectButton"
         android:id="@+id/stockHawkButton"
         android:layout_below="@+id/popularMoviesButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="3dp"
         android:onClick="onProjectButtonClick" />
 
     <Button
         android:text="Build It Bigger"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/ProjectButton"
         android:id="@+id/buildItBiggerButton"
         android:layout_below="@+id/stockHawkButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="3dp"
         android:onClick="onProjectButtonClick" />
 
     <Button
         android:text="Make Your App Material"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/ProjectButton"
         android:id="@+id/makeYourAppMaterialButton"
         android:layout_below="@+id/buildItBiggerButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="3dp"
         android:onClick="onProjectButtonClick" />
 
     <Button
         android:text="Go Ubiquitous"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/ProjectButton"
         android:id="@+id/goUbiquitousButton"
         android:layout_below="@+id/makeYourAppMaterialButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="3dp"
         android:onClick="onProjectButtonClick" />
 
     <Button
         android:text="Capstone"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        style="@style/ProjectButton"
         android:id="@+id/capstoneButton"
         android:layout_below="@+id/goUbiquitousButton"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="3dp"
-        android:layout_marginBottom="3dp"
         android:onClick="onProjectButtonClick" />
 </RelativeLayout>
